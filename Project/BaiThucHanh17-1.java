@@ -16,7 +16,7 @@ public class Nhap {
         double a = sc.nextDouble();
         System.out.print("Nhap he so B : ");
         double b = sc.nextDouble();
-        if(a == 0&& b == 0){
+        if(a == 0 && b == 0){
             System.out.println("Phuon trinh co vo so nghiem !\n");
         }
         else if(a == 0 && b != 0){
