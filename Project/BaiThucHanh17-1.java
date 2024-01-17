@@ -12,15 +12,18 @@ import java.util.Locale;
 public class Nhap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double a = sc.nextDouble(), b = sc.nextDouble();
+        System.out.print("Nhap he so A : ");
+        double a = sc.nextDouble();
+        System.out.print("Nhap he so B : ");
+        double b = sc.nextDouble();
         if(a == 0&& b == 0){
-            System.out.println("Vo so nghiem !\n");
+            System.out.println("Phuon trinh co vo so nghiem !\n");
         }
         else if(a == 0 && b != 0){
-            System.out.println("Vo nghiem !\n");
+            System.out.println("Phuong trinh vo nghiem !\n");
         }
         else{
-            System.out.printf("x = %.2f\n", -b / a);
+            System.out.printf("Phuong trinh co nghiem x = %.2f\n", -b / a);
         }
     }
 }
