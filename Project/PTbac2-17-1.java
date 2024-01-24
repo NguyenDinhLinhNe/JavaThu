@@ -1,7 +1,7 @@
 
 import java.util.Scanner;;
 
-public class PTbac2 {
+public class PTbac2-17-1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double a, b, c;
