@@ -2,7 +2,6 @@ import java.util.*;
 
 public class ngay31_1_bthtrang96_b9 {
     public static void main(String[] args) {
-        // nhap cac so nguyen va tinh tong , tong > 100 thi dung va in ra
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhap chuoi : ");
         String s = sc.nextLine();
