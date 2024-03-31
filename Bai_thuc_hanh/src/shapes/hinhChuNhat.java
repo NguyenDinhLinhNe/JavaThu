@@ -2,28 +2,34 @@ package shapes;
 
 import java.util.*;
 
-public class hinhChuNhat {
-    private double length, width, Perimeter, Area;
-    // public Scanner sc;
+public class hinhChuNhat extends hinhHoc{
+    protected float dai, rong;
 
-    public void nhapThongTin(Scanner sc){
+    public hinhChuNhat(){
+        ten = "Hinh chu nhat";
+    }
+
+    public void xuatTen(){
+        super.xuatTen();
+    }
+
+    public void nhapChieuDai(){
+        Scanner sc = new Scanner(System.in);
         System.out.print("Nhap chieu dai : ");
-        length = sc.nextDouble();
+        dai = sc.nextFloat();
+    }
+
+    public void nhapChieuRong(){
+        Scanner sc = new Scanner(System.in);
         System.out.print("Nhap chieu rong : ");
-        width = sc.nextDouble();
+        rong = sc.nextFloat();
     }
 
-    public void setPerimeter(){
-        this.Perimeter = (length + width) * 2;
+    public void tinhChuVi(){
+        chuVi = (dai + rong) * 2;
     }
 
-    public void setArea(){
-        this.Area = length * width;
-    }
-
-    public void inThongTin(){
-        System.out.print("Thong tin hinh chu nhat : ");
-        System.out.print("Perimeter : " + String.format("%.2f, ", Perimeter));
-        System.out.println("Area : " + String.format("%.2f", Area));
+    public void tinhDienTich(){
+        dienTich = dai * rong;
     }
 }

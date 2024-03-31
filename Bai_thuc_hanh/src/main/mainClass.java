@@ -3,38 +3,44 @@ import java.util.*;
 
 import shapes.hinhChuNhat;
 import shapes.hinhTron;
-import Person.sinhVien;
+import shapes.hinhTru;
+import shapes.hinhVuong;
 
 public class mainClass {
     public static void main(String[] args) {
-        // nhap xuat hinh tron hinh chu nhat
+        // hinh tron
+        hinhTron htron = new hinhTron();
+        htron.xuatTen();
+        htron.nhapBanKinh();
+        htron.tinhChuVi();
+        htron.tinhDienTich();
+        htron.inChuVi();
+        htron.inDienTich();
 
-        // Scanner sc = new Scanner(System.in);
-        // hinhTron ht = new hinhTron();
-        // hinhChuNhat hcn = new hinhChuNhat();
+        // hinh chu nhat
+        hinhChuNhat hcn = new hinhChuNhat();
+        hcn.xuatTen();
+        hcn.nhapChieuDai();
+        hcn.nhapChieuRong();
+        hcn.tinhChuVi();
+        hcn.tinhDienTich();
+        hcn.inChuVi();
+        hcn.inDienTich();
 
-        // ht.nhapThongTin(sc);
-        // ht.setPerimeter();
-        // ht.setArea();
-        // ht.inThongTin();
+        // hinh tru
+        hinhTru htru = new hinhTru();
+        htru.xuatTen();
+        htru.nhapChieuCao();
+        htru.tinhTheTich();
+        htru.inTheTich();
 
-        // hcn.nhapThongTin(sc);
-        // hcn.setPerimeter();
-        // hcn.setArea();
-        // hcn.inThongTin();
-
-        // nhap sinh vien
-
-        // Scanner sc = new Scanner(System.in);
-        // sinhVien sv = new sinhVien();
-        // System.out.print("Nhap ten : ");
-        // String name = sc.nextLine();
-        // System.out.print("Nhap tuoi : ");
-        // String age = sc.nextLine();
-        // System.out.print("Nhap dia chi : ");
-        // String address = sc.nextLine();
-
-        // sv.nhapThongTin(name , age , address);
-        // sv.xuatThongTin();
+        // hinh vuong
+        hinhVuong hv = new hinhVuong();
+        hv.xuatTen();
+        hv.nhapCanh();
+        hv.tinhChuVi();
+        hv.tinhDienTich();
+        hv.inChuVi();
+        hv.inDienTich();
     }
 }
