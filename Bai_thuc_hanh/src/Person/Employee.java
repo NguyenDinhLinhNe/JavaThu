@@ -1,28 +1,23 @@
 package Person;
 import java.util.*;
-public class Employee extends person{
-    protected int id;
+public class Employee{
+    protected String name;
+    protected long salary;
 
-    public Employee(String name,  String age, String address, int id){
-        super(name , age , address);
-        this.id = id;
+    public Employee(){}
+
+    public Employee(String name){
+        this.name = name;
     }
 
-    public Employee(){
-        super();
-        id = 123;
-    }
-
-    public void nhap(){
-        Scanner sc = new Scanner(System.in);
-        super.nhapThongTin();
-        System.out.print("Nhap id nhan vien : ");
-        id = sc.nextInt();
+    public String typeOfEmp(){
+        return " ";
     }
 
     public void in(){
-        super.inThongTin();
-        System.out.println("Id : " + id);
+        System.out.println("---- Name of the staff : " + name + " ----");
+        System.out.println("Type of staff : " + typeOfEmp());
+        System.out.println("Salary : " + salary);
     }
 }
 
