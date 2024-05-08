@@ -21,5 +21,3 @@ public class Employee{
     }
 }
 
-// part time : luong theo gio , so ngay lam trong thang
-// full time : luong cung , phu cap
