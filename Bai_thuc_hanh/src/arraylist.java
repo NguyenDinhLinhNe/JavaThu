@@ -51,7 +51,7 @@ public class arraylist {
 
         // clear array
         arr.clear();
-
+        
         // 
     }
 }
