@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class hashSet {
+public class hashSet1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         HashSet<Integer> hashSet = new HashSet<>();
