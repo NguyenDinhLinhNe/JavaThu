@@ -14,5 +14,9 @@ public class treeSet {
         SortedSet<String> treeSet = new TreeSet<>();
         treeSet = tree.tailSet("HO");
         System.out.println(treeSet);
+        tree.forEach(element ->{
+            System.out.println(element);
+        });
+        tree.forEach(System.out::println);
     }
 }
