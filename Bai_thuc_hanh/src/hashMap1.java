@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class hashMap {
+public class hashMap1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         HashMap<Integer , Integer> hash = new HashMap<>();
