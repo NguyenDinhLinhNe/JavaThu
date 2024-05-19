@@ -3,7 +3,7 @@ import java.util.*;
 public class arraylist {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<Int> arr = new ArrayList<>();
+        ArrayList<Integer> arr = new ArrayList<>();
         System.out.print("So phan tu ban muon them : ");
         int n = sc.nextInt();
         for(int i = 0;i < n; ++i){
@@ -19,7 +19,7 @@ public class arraylist {
 
         // remove value at index
         arr.remove(3);
-        arr.remoev(2);
+        arr.remove(2);
 
         // remove value
         arr.remove(Integer.valueOf(4));
@@ -39,7 +39,7 @@ public class arraylist {
         
         // or
         
-        Iterator<Int> iterator = arr.interator();
+        Iterator<Integer> iterator = arr.iterator();
         while(iterator.hasNext()){
             System.out.print(iterator.next() + " ");
         }
