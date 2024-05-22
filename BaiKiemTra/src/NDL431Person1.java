@@ -8,7 +8,7 @@ class Person{
     private double mark;
 }
 
-public class NDL431Person {
+public class NDL431Person1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
